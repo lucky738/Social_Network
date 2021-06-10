@@ -1,0 +1,48 @@
+.nav {
+  grid-area: n;
+  background-color: #131a1f;
+  }
+.item {
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  transition: 0.3s;
+}
+.nav a {
+  text-decoration: none;
+}
+.activeLink .item {
+  background-color: #222d35;
+}
+.item:hover {
+  background-color: #222d35;
+}
+.friends {
+  color: white;
+  text-align: center;
+}
+.friend {
+  float: left;
+  width: 50px;
+  height: 75px;
+  margin: 10px 8px 0px;
+}
+h1 {
+  padding: 0;
+  margin: 50px 0 0;
+}
+.friendImage {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.friendImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.friendName {
+  color: white;
+}

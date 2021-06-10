@@ -1,0 +1,14 @@
+.profileInfoDiv img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.descriptionBlock {
+  padding: 10px;
+}
+.mainPhoto {
+  max-width: 200px;
+}
+.contact {
+  margin: 0 0 0 10px;
+}

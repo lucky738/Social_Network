@@ -1,0 +1,67 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogs a {
+    text-decoration: none;
+}
+.dialogsItems {
+    background-color: #222d35;
+}
+.dialog {
+    text-align: center;
+    background-color: white;
+    color: #000;
+    margin: 10px 50px;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+.dialogsItems .active {
+    background-color: #96a1a9;
+}
+.chats {
+    height: 75px;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+.chats:hover {
+    background-color: #96a1a9;
+}
+.chatsImage {
+    float: left;
+    width: 50px;
+    padding: 12px 9px;
+    border-radius: 50%;
+    height: 50px;
+}
+.chats p {
+    float: left;
+    padding: 15px 0;
+    margin: 0;
+}
+.messages {
+    padding: 10px;
+}
+
+.addingNewPost {
+    width: 100%;
+}
+.textarea {
+    min-height: 100px;
+    width: 79%;
+    background-color: #cfe0ff;
+    border-radius: 5px;
+    resize: none;
+    float: left;
+}
+.send {
+    background-color: #3e67b1;
+    color: white;
+    border: none;
+    float: left;
+    width: 19%;
+    margin: 30px 0 0 8px;
+    border-radius: 10px;
+    padding: 19px 0;
+}

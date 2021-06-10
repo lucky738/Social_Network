@@ -1,0 +1,27 @@
+.header {
+  grid-area: h;
+  background-color: #131a1f;
+}
+.header_logo {
+  float: left;
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 15px 0 0 67px;
+}
+.header img {
+  width: 100%;  
+  height: auto;
+}
+.loginBlock {
+  font-size: 22px;
+  margin: 35px 70px 0 0;
+  float: right;
+  color: white;
+}
+.loginBlock a {
+  color: inherit;
+  text-decoration: none;
+}
